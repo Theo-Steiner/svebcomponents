@@ -1,4 +1,4 @@
-// add web comoponent shims
+// add web component shims
 import ExampleComponentRenderer from "@svebcomponents/example-component/ssr";
 import { ElementRendererRegistry } from "@svebcomponents/ssr";
 import type { Handle } from "@sveltejs/kit";

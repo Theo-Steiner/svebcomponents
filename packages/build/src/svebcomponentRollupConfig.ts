@@ -2,6 +2,7 @@ import type { RollupOptions } from "rollup";
 import svelte from "rollup-plugin-svelte";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
+import autoOptions from "@svebcomponents/auto-options";
 
 interface RollupConfigSvebcomponentsOptions {
   /**
@@ -31,6 +32,7 @@ export const svebcomponentRollupConfig = (
         exportConditions: ["svelte"],
         extensions: [".svelte"],
       }),
+      autoOptions(),
       svelte(),
       typescript({
         outDir,

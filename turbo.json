@@ -15,6 +15,13 @@
       "dependsOn": ["^build"],
       "cache": false,
       "persistent": true
+    },
+    "test": {
+      "dependsOn": ["^test"]
+    },
+    "test:dev": {
+      "cache": false,
+      "persistent": true
     }
   }
 }

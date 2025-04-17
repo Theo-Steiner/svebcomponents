@@ -1,0 +1,4 @@
+{
+  "extends": "@svebcomponents/typescript-config/svelte",
+  "include": ["src/**/*"]
+}

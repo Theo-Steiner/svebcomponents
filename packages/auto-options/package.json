@@ -1,0 +1,47 @@
+{
+  "name": "@svebcomponents/auto-options",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "check": "tsc --noEmit",
+    "lint": "pnpm /^lint:.*/",
+    "lint:eslint": "eslint .",
+    "lint:format": "prettier --check .",
+    "fix": "pnpm /^fix:.*/",
+    "fix:eslint": "eslint . --fix",
+    "fix:format": "prettier --write --ignore-unknown .",
+    "test": "vitest run",
+    "test:dev": "vitest --watch"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "devDependencies": {
+    "@svebcomponents/eslint-config": "workspace:*",
+    "@svebcomponents/prettier-config": "workspace:*",
+    "@svebcomponents/typescript-config": "workspace:*",
+    "@svebcomponents/utils": "workspace:*",
+    "@types/estree": "catalog:",
+    "@types/node": "catalog:",
+    "magic-string": "catalog:",
+    "rollup": "catalog:",
+    "svelte": "catalog:",
+    "vitest": "catalog:",
+    "zimmerframe": "catalog:"
+  },
+  "keywords": [
+    "svelte"
+  ]
+}

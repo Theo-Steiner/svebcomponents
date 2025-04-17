@@ -6,7 +6,9 @@
     "dev": "turbo watch dev",
     "check": "turbo check",
     "lint": "turbo lint",
-    "fix": "turbo fix"
+    "fix": "turbo fix",
+    "test": "turbo test",
+    "test:dev": "turbo test:dev"
   },
   "devDependencies": {
     "turbo": "catalog:",

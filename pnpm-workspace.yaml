@@ -24,6 +24,7 @@ catalog:
   "@tsconfig/strictest": 2.0.5
   "@tsconfig/svelte": 5.0.4
   "@types/node": 22.14.1
+  "@types/estree": "1.0.7"
   eslint: 9.24.0
   "@eslint/js": 9.24.0
   eslint-config-prettier: 10.1.2
@@ -44,4 +45,5 @@ catalog:
   typescript: 5.8.3
   typescript-eslint: 8.29.1
   vite: 6.2.6
+  vitest: 3.1.1
   zimmerframe: 1.1.2
