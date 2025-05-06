@@ -18,7 +18,7 @@ catalog:
   "@storybook/web-components": 8.6.12
   "@storybook/web-components-vite": 8.6.12
   "@sveltejs/adapter-auto": 6.0.0
-  "@sveltejs/kit": 2.20.5
+  "@sveltejs/kit": 2.20.8
   "@sveltejs/package": 2.3.10
   "@sveltejs/vite-plugin-svelte": 5.0.3
   "@tsconfig/strictest": 2.0.5
