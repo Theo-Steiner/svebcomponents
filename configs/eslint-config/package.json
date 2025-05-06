@@ -16,7 +16,7 @@
     "fix:format": "prettier --write ."
   },
   "devDependencies": {
-    "@eslint/compat": "1.2.8",
+    "@eslint/compat": "1.2.9",
     "@eslint/js": "catalog:",
     "@svebcomponents/prettier-config": "workspace:*",
     "eslint": "catalog:",
